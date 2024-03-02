@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator by JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+   
+    <div class="heading">
+
+        <h2>Arithmetic Operation In Form</h2>
+    </div>
+
+
+    <div class="col-md-6 m-auto p-5">
+
+
+
+       
+
+      <div class="card card-primary  p-2 mr-5 border-primary ">
+
+       
+         <form>
+          <div class="text-center"> <h3>Arithmetic Operation</h3> </div>
+              
+          
+
+          <div class="form-group row  sd-6 m-5">
+
+            <div class="col p-2">
+              <label for="number1">Enter First No :</label>
+            </div>
+            
+           
+
+            <div class="col p-2 ">
+              <input type="number" id="number1" name="number1" placeholder="Enter First Number" required>
+            </div>
+            
+          </div>
+
+
+
+
+
+
+          <div class="form-group row  xs-6 m-5">
+
+            <div class="col p-2">
+              <label for="number2">Enter Second No :</label>
+            </div>
+            
+           
+
+            <div class="col p-2">
+              <input type="number" id="number2" name="number2" placeholder="Enter Second Number" required>
+            </div>
+            
+          </div>
+
+
+
+
+
+          <div class="form-group row  xs-6 m-5">
+
+            <div class="col p-2">
+              <label for="result">Result :</label>
+           
+            </div>
+            
+           
+
+            <div class="col p-2">
+              <input type="text" id="result" name="result" readonly>
+            </div>
+            
+          </div>
+        
+
+
+          
+
+          <div class="buttons m-auto">
+          
+            <button type="button" class="btn btn-outline-success m-3" onclick="add()">ADD</button>
+            <button type="button" class="btn btn-outline-success m-3" onclick="subtract()">SUBTRACT</button>
+            <button type="button" class="btn btn-outline-success m-3" onclick="multiply()">MULTIPLY</button>
+            <button type="button" class="btn btn-outline-success m-4" onclick="divide()">DIVIDE</button>
+        </div>
+
+
+        <div class="text-center">
+          <button type="button" class="btn btn-danger" onclick="reset()">RESET</button>
+      </div>
+
+          </form>
+
+
+
+
+           
+ 
+
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
