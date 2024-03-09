@@ -1,0 +1,32 @@
+
+CREATE TABLE Employee_Table13(
+    id INT,
+    name VARCHAR(20),
+    occupation VARCHAR(20),
+    Salary INT,
+    leader_id INT
+);
+
+INSERT INTO Employee_Table13(id, name, occupation, Salary, leader_id)
+VALUES
+    (1, 'Ajij', 'Fisherman', 70000, 10), 
+    (2, 'Nusrat', 'Software Engineer', 50000, 11), 
+    (3, 'Asif', 'Business Analyst', 60000, 12),
+    (4, 'Akash', 'Web Developer', 60000, 13), 
+    (5, 'Ashek', 'Graphics Designer', 50000, 14);
+    
+    
+    
+    -- SELECT * FROM Employee_Table13 LIMIT 3;
+
+    
+    -- SELECT * FROM Employee_Table13 WHERE NOT Salary > 55000;
+
+   -- SELECT * FROM Employee_Table13 WHERE occupation = 'Web Developer' OR occupation = 'Graphics Designer';
+    
+   -- SELECT * FROM Employee_Table13 WHERE Salary > 55000 AND occupation = 'Software Engineer';
+   -- SELECT * FROM Employee_Table13 ORDER BY Salary DESC;
+
+   -- SELECT * FROM Employee_Table13 WHERE Salary > 55000;
+    -- SELECT * FROM Employee_Table13;
+-- SELECT id, name, Salary FROM Employee_Table13;
