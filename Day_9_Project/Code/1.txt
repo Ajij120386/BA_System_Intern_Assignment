@@ -1,0 +1,33 @@
+-- Create employees table
+ CREATE TABLE employees2
+(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50)
+);
+
+-- Insert sample data into employees table
+INSERT INTO employees2(name) VALUES
+('Bob Doe'),
+('Alice'),
+('Kanel Smith'),
+('Johnson'),
+('Michael Johnson');
+
+
+-- Create customers table
+CREATE TABLE customers2 (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50)
+);
+
+-- Insert sample data into customers table
+INSERT INTO customers2(name) VALUES
+('Ajij'),
+('Nusrat'),
+('Ashek'),
+('Bristy'),
+('ASif');
+
+-- Display the content of employees and customers tables
+SELECT * FROM employees2;
+SELECT * FROM customers2;
