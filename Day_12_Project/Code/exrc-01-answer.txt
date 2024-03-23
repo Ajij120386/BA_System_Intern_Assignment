@@ -1,0 +1,9 @@
+# Please replace 0.0 below with your answer to Exercise 01.
+
+relative_humidity= 87.901387
+temperature_average= 2.740029
+wind_speed= 3.900717
+precipitation_amount=NaN
+pressure_verage=1012.634146
+
+# Please do not write anything else into this file.
